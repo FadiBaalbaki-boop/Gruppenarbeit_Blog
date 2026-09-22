@@ -51,15 +51,6 @@ header {
     color: #FFFFFF;
 }
 
-.hero {
-    width: 100%;
-    height: 515px;
-    background-image: url(../assets/img/bild_bg.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 .headline{
     font-family: 'Arima';
     font-style: normal;
