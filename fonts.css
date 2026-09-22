@@ -1,0 +1,114 @@
+/* arima-100 - greek_greek-ext_latin_latin-ext_malayalam_tamil_vietnamese */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Arima';
+  font-style: normal;
+  font-weight: 100;
+  src: url('.assets/fonts/arima-v7-greek_greek-ext_latin_latin-ext_malayalam_tamil_vietnamese-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* arima-200 - greek_greek-ext_latin_latin-ext_malayalam_tamil_vietnamese */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Arima';
+  font-style: normal;
+  font-weight: 200;
+  src: url('.assets/fonts/arima-v7-greek_greek-ext_latin_latin-ext_malayalam_tamil_vietnamese-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* arima-300 - greek_greek-ext_latin_latin-ext_malayalam_tamil_vietnamese */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Arima';
+  font-style: normal;
+  font-weight: 300;
+  src: url('.assets/fonts/arima-v7-greek_greek-ext_latin_latin-ext_malayalam_tamil_vietnamese-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* arima-regular - greek_greek-ext_latin_latin-ext_malayalam_tamil_vietnamese */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Arima';
+  font-style: normal;
+  font-weight: 400;
+  src: url('.assets/fonts/arima-v7-greek_greek-ext_latin_latin-ext_malayalam_tamil_vietnamese-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* arima-500 - greek_greek-ext_latin_latin-ext_malayalam_tamil_vietnamese */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Arima';
+  font-style: normal;
+  font-weight: 500;
+  src: url('.assets/fonts/arima-v7-greek_greek-ext_latin_latin-ext_malayalam_tamil_vietnamese-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* arima-600 - greek_greek-ext_latin_latin-ext_malayalam_tamil_vietnamese */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Arima';
+  font-style: normal;
+  font-weight: 600;
+  src: url('.assets/fonts/arima-v7-greek_greek-ext_latin_latin-ext_malayalam_tamil_vietnamese-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* arima-700 - greek_greek-ext_latin_latin-ext_malayalam_tamil_vietnamese */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Arima';
+  font-style: normal;
+  font-weight: 700;
+  src: url('.assets/fonts/arima-v7-greek_greek-ext_latin_latin-ext_malayalam_tamil_vietnamese-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+/* palanquin-100 - devanagari_latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Palanquin';
+  font-style: normal;
+  font-weight: 100;
+  src: url('.assets/fonts/palanquin-v17-devanagari_latin_latin-ext-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* palanquin-200 - devanagari_latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Palanquin';
+  font-style: normal;
+  font-weight: 200;
+  src: url('.assets/fonts/palanquin-v17-devanagari_latin_latin-ext-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* palanquin-300 - devanagari_latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Palanquin';
+  font-style: normal;
+  font-weight: 300;
+  src: url('.assets/fonts/palanquin-v17-devanagari_latin_latin-ext-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* palanquin-regular - devanagari_latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Palanquin';
+  font-style: normal;
+  font-weight: 400;
+  src: url('.assets/fonts/palanquin-v17-devanagari_latin_latin-ext-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* palanquin-500 - devanagari_latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Palanquin';
+  font-style: normal;
+  font-weight: 500;
+  src: url('.assets/fonts/palanquin-v17-devanagari_latin_latin-ext-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* palanquin-600 - devanagari_latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Palanquin';
+  font-style: normal;
+  font-weight: 600;
+  src: url('.assets/fonts/palanquin-v17-devanagari_latin_latin-ext-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* palanquin-700 - devanagari_latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Palanquin';
+  font-style: normal;
+  font-weight: 700;
+  src: url('.assets/fonts/palanquin-v17-devanagari_latin_latin-ext-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
