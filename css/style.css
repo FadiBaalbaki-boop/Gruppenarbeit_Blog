@@ -67,8 +67,6 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    /* border: 2px solid red; */
 }
 
 .hero-container {
@@ -79,8 +77,6 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
-    /* padding: 32px calc(50% - 720px); */
 
     display: flex;
     justify-content: center;
@@ -135,7 +131,6 @@ header {
     flex-direction: column;
     gap: 32px;
     z-index: 2;
-
 }
 
 .hero-text h1 {
@@ -222,11 +217,6 @@ header {
     
     border-radius: 12px;
     padding: 16px 24px;
-
-    /* display: flex;
-    flex-direction: column;
-    gap: 8px; */
-
 }
 
 #faq summary {
@@ -243,22 +233,19 @@ summary::after {
     width: 24px;
     height: 24px;
 
-    /* border: 2px solid red; */
-
     background-image: url(/assets/icons/arrow_forward_icon.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     transition: transform 0.2s ease;
     margin-right: 4px;
-    
-  }
+}
 
-  details[open] summary::after {
+details[open] summary::after {
     transform: rotate(180deg);
-  }
+}
 
-  .content-box {
+.content-box {
     background-color: white;
     border-radius: 5px;
     padding: 4px 10px;
@@ -266,7 +253,7 @@ summary::after {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.2;
-  }
+}
 
 footer {
     width: 100%;
@@ -289,7 +276,7 @@ footer {
     align-items: center;
 }
 
-footer nav {
+.footer-socials {
     width: 509px;
     display: flex;
     justify-content: space-between;
@@ -297,7 +284,6 @@ footer nav {
     gap: 72px;
 
     color: white;
-
 }
 
 .copyright-box {
@@ -328,9 +314,10 @@ footer nav {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.2;
+    color: white;
 }
 
-footer nav a {
+.footer-socials a {
     width: fit-content;
     text-decoration: none;
     color: white;
