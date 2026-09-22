@@ -1,3 +1,64 @@
+:root {
+    --main-color: rgba(241, 201, 83, 1);
+    --secondary-color: rgba(78, 164, 135, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    padding: 32px 0 32px 146px;
+
+    background-color: var(--secondary-color);
+}
+
+.nav-bar {
+    max-width: 561px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 102px;
+}
+
+.nav-bar img {
+    height: 72px;
+    width: 72px;
+}
+
+.nav-bar ul {
+    max-width: 384px;
+    display: flex;
+    justify-content: space-between;
+    gap: 72px;
+}
+
+.nav-bar ul li {
+    list-style: none;
+    font-family: 'Arima';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 0.8;
+
+    color: #FFFFFF;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.hero {
+    width: 100%;
+    height: 515px;
+    background-image: url(../assets/img/bild_bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 .headline{
     font-family: 'Arima';
