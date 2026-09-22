@@ -1,0 +1,28 @@
+
+.headline{
+    font-family: 'Arima';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    color: #4EA487;
+}
+
+.headline::before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-image: url('../assets/icons/rocket_launch.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-right: 24px;
+}
+
+.slider-section p{
+     font-family: 'Palanquin';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 24px;
+     color: #54370d;
+}
