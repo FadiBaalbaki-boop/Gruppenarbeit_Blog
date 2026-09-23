@@ -1,8 +1,6 @@
 :root {
     --main-color: rgba(241, 201, 83, 1);
     --secondary-color: rgba(78, 164, 135, 1);
-
-    --h1-size: 60px;
 }
 
 * {
@@ -52,6 +50,8 @@ header img {
     color: #FFFFFF;
 }
 /* Header End */
+
+
 
 /* Hero Begin */
 
@@ -114,8 +114,6 @@ header img {
     flex-direction: column;
     gap: 32px;
 }
-
-
 
 /* Hero End */
 
