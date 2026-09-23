@@ -1,0 +1,130 @@
+        .slider{
+            padding: 88px 120px 120px 120px;
+        }
+
+        .slider img{
+            width: 1200px;
+            height: 530px;
+            object-fit: cover;
+        }
+        
+        .headline{
+            font-family: 'Arima';
+            font-style: normal;
+            font-weight: 700;
+
+            font-size: 56px;
+            padding-bottom: 24px;
+        }
+
+        .slider-content > p{
+            font-family: 'Palanquin';
+            font-style: medium;
+            font-weight: 500;
+
+            font-size: 24px;
+            color: rgb(84, 55, 13);
+        }
+
+        
+        .slider-content{
+            text-align: center;
+            padding-bottom: 88px;
+        }
+
+        .slider-content-style h3{
+             font-family: 'Palanquin';
+             font-style: normal;
+             font-weight: 600;
+             font-size: 48px;
+
+             padding-top: 20px;
+        }
+
+        .slider-content-style p{
+             font-family: 'Palanquin';
+             font-style: normal;
+             font-weight: 400;
+             font-size: 28px;
+        }
+        
+        .slider_a{
+            background-color: black;
+            position: relative;
+            overflow: hidden;
+
+            display: flex;
+            justify-content: center;
+            align-items: end;
+
+            width: 1200px;
+            height: 530px;
+
+            border-top-right-radius: 100px;
+            padding: 0px 88px;
+        }
+
+        .slider_a input{
+            z-index: 2;
+        }
+
+        .slider_a_wrapper{
+            z-index: 1;
+
+            position: absolute;
+            display: flex;
+
+            width: 100%;
+            height: 100%;
+            transition: all 1s ease-in-out;
+        }
+
+        .slider_a_element{
+            min-width: 100%;
+            height: 100%;
+            
+        }
+
+        .element_one{
+            background: url(/assets/img/theojamous-river-4951162_1920.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .element_two{
+            background: url(/assets/img/theojamous-river-4951162_1920.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .element_tree{
+            background: url(/assets/img/theojamous-river-4951162_1920.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .element_four{
+            background: url(/assets/img/theojamous-river-4951162_1920.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+       .slider_a input[value="one"]:checked ~ .slider_a_wrapper{
+            transform: translateX(0);
+        }
+
+        .slider_a input[value="two"]:checked ~ .slider_a_wrapper{
+            transform: translateX(-100%);
+        } 
+
+        .slider_a input[value="tree"]:checked ~ .slider_a_wrapper{
+            transform: translateX(-200%);
+        }
+
+        .slider_a input[value="four"]:checked ~ .slider_a_wrapper{
+            transform: translateX(-300%);
+        }
