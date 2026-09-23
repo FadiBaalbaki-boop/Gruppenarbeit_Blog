@@ -64,16 +64,6 @@ body {
     color: var(--main-color);
 }
 
-/* .site-content {
-    width: 100%;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 150px;
-    padding-bottom: 80px;
-} */
-
 .hero {
     width: 100%;
 
@@ -181,14 +171,6 @@ body {
     background-size: contain;
     padding-right: 24px;
 }
-
-/* .slider-section p{
-     font-family: 'Palanquin';
-     font-style: normal;
-     font-weight: 500;
-     font-size: 24px;
-     color: #54370d;
-} */
 
 #faq {
     max-width: 1200px;
