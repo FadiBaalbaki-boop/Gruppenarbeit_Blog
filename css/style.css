@@ -6,21 +6,30 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-header {
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-header {
     width: 100%;
     padding: 32px 0 32px 146px;
-    height: 128px;
 
     background-color: var(--secondary-color);
 }
 
 .nav-bar {
+    max-width: 561px;
     display: flex;
     align-items: center;
     gap: 102px;
-    
 }
 
 .nav-bar img {
@@ -48,6 +57,30 @@ header {
     color: #FFFFFF;
 }
 
+.headline{
+    font-family: 'Arima';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    color: #4EA487;
+}
 
+.headline::before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-image: url('../assets/icons/rocket_launch.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-right: 24px;
+}
 
-
+.slider-section p{
+     font-family: 'Palanquin';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 24px;
+     color: #54370d;
+}
