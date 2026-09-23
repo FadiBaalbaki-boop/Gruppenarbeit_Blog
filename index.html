@@ -110,6 +110,37 @@
                 </details>
             </div>
         </section>
+
+        <section id="contact">
+            <form id="form-main" action="submit-form" method="POST">
+                <div class="titel-container">
+                    <div class="titel-box">
+                        <img src="/assets/icons/person_pin_icon.svg" alt="person pin icon">
+                        <h2>Contact form</h2>
+                    </div>
+                    <p>Have a question or an idea to collaborate? <br> Get in touch-I’d love to hear from you and
+                        explore how
+                        we can work together.</p>
+                </div>
+
+                <div class="form-content">
+                    <div class="form-input">
+                        <div class="personal">
+                            <input type="text" name="name" id="name" placeholder="What's your name?" required>
+                            <input type="email" name="email" id="email" placeholder="What's your email?" required>
+                        </div>
+
+                        <textarea name="message" id="message" rows="5" placeholder="How can I help?" required></textarea>
+                    </div>
+                    <div class="send-box">
+                        <input type="checkbox" name="policy-check" id="policy-check" required> I've read the <span
+                            style="color: green;">privacy policy </span> and agree to the processing of my data as
+                        outlined.
+                        <button type="submit">Send</button>
+                    </div>
+                </div>
+            </form>
+        </section>
     </main>
 
     <footer class="site-footer">
