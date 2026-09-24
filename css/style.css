@@ -171,7 +171,9 @@ header img {
 }
 
 .contact{
-    padding: 120px 0 120px 120px;
+    padding-top: 88px;
+    padding-bottom: 88px;
+    padding-inline: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -270,7 +272,8 @@ label{
 
 
 #faq {
-    max-width: 1200px;
+    /* max-width: 1200px; */
+    padding: 88px 120px;
     width: 100%;
 
     display: flex;
@@ -293,6 +296,17 @@ h2 {
     font-size: 52px;
 
     color: var(--secondary-color);
+}
+.headline-faq::before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-image: url('/assets/icons/live_help.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-right: 24px;
 }
 
 .details-box {
@@ -325,7 +339,7 @@ h2 {
     line-height: 120%;
 }
 
-summary::after {
+ summary::after{
     content: "";
     display: inline-block;
     width: 24px;
@@ -427,4 +441,20 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+/* Fadi's Block css style */
+
+/* Fadi Hero Bereich */
+
+.hero-blog{
+    display: flex;
+    padding: 88px 120px;
+    gap: 30px;
+}
+
+.hero_text_blog{
+    display: flex;
+    flex-direction: column;
 }
