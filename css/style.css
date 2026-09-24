@@ -171,9 +171,7 @@ header img {
 }
 
 .contact{
-    padding-top: 88px;
-    padding-bottom: 88px;
-    padding-inline: 120px;
+    padding: 120px 0 120px 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -375,14 +373,6 @@ footer {
     padding: 60px 120px;
     background-color: var(--secondary-color);
 }
-
-/* .footer-container {
-    max-width: 1200px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
 
 .footer-socials {
     width: 509px;
