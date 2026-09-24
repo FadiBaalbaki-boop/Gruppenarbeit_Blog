@@ -1,6 +1,16 @@
-
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 120px;
+}
 
 .article-hero{
+    display: flex;
+    padding-top: 128px;
+}
+
+.article-hero-culmn{
     display: flex;
     flex-direction: column;
 }
@@ -8,13 +18,43 @@
 .article-hero-content{
     display: flex;
     flex-direction: column;
+    width: 900px;
+}
+
+.article-hero-content h1{
+    font-family: Arima;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 64px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #F1C953;
+}
+
+.article-hero-content>h2{
+    font-family: Palanquin;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.article-hero-content p{
+    font-family: Palanquin;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color:#54370D;
 }
 
 /* box */
 .article-meta{
     display: flex;
     gap: 32px;
-    padding: 10px;
+    padding-top: 32px;
 }
 
 .meta-item{
@@ -25,3 +65,18 @@
     gap: 6px;
 }
 
+.hero-info-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding-left: 16px;
+    width: 270px;
+    background: #4EA48733;
+    border-radius: 30px;
+}
+
+.hero-info-content>img{
+    width: 128px;
+    height: 128px;
+}
