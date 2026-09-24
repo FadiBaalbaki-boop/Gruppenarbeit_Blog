@@ -1,8 +1,6 @@
 :root {
     --main-color: rgba(241, 201, 83, 1);
     --secondary-color: rgba(78, 164, 135, 1);
-
-    --h1-size: 60px;
 }
 
 * {
@@ -59,6 +57,8 @@ header img {
     color: #FFFFFF;
 }
 /* Header End */
+
+
 
 /* Hero Begin */
 
@@ -122,8 +122,6 @@ header img {
     gap: 32px;
 }
 
-
-
 /* Hero End */
 
 .headline{
@@ -153,6 +151,123 @@ header img {
      font-size: 24px;
      color: #54370d;
 }
+.headline-Contact{
+    font-family: 'Arima';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    color: #4EA487;
+}
+.headline-Contact::before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-image: url('/assets/icons/person_pin.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-right: 24px;
+}
+
+.contact{
+    padding: 120px 0 120px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 56px;
+}
+
+.contact p{
+  font-family: 'Palanquin';
+  font-style: normal;
+  font-weight: 500;
+
+  text-align: center;
+
+  font-size: 24px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+form input{
+    border: none;
+    border-bottom: solid 1px black;
+    width: 525px;
+    padding-bottom: 17px;
+}
+.input-class{
+    width: 1085px;
+}
+.contact-box{
+    display: flex;
+    gap: 35px;
+}
+
+label{
+  font-family: 'Palanquin';
+  font-style: normal;
+  font-weight: 500;
+
+  font-size: 24px;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-formular{
+    display: flex;
+    flex-direction: column;
+    gap: 85px;
+}
+
+.checkbox{
+    width: 18px;
+    height: 18px;
+}
+
+.label-checkbox{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.label-checkbox span{
+    font-family: 'Palanquin';
+    font-style: normal;
+    font-weight: 400;
+
+    font-size: 15px;
+
+    padding-bottom: 50px;
+}
+
+.button{
+   width: 140px;
+   padding: 16px;
+   border-radius: 40px;
+
+   font-family: 'Arima';
+   font-style: normal;
+   font-weight: 700;
+
+   font-size: 24px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+
 
 #faq {
     max-width: 1200px;

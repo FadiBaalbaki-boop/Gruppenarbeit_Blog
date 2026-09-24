@@ -1,0 +1,27 @@
+
+
+.article-hero{
+    display: flex;
+    flex-direction: column;
+}
+
+.article-hero-content{
+    display: flex;
+    flex-direction: column;
+}
+
+/* box */
+.article-meta{
+    display: flex;
+    gap: 32px;
+    padding: 10px;
+}
+
+.meta-item{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+

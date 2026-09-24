@@ -7,41 +7,49 @@
             height: 530px;
             object-fit: cover;
         }
-        
+
         .headline{
             font-family: 'Arima';
             font-style: normal;
             font-weight: 700;
-
             font-size: 56px;
+            color: #4EA487;
             padding-bottom: 24px;
         }
 
-        .slider-content > p{
-            font-family: 'Palanquin';
-            font-style: medium;
-            font-weight: 500;
-
-            font-size: 24px;
-            color: rgb(84, 55, 13);
+        .headline::before{
+            content: "";
+            width: 40px;
+            height: 40px;
+            display: inline-block;
+            background-image: url('../assets/icons/rocket_launch.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            padding-right: 24px;
         }
 
+        .slider{
+            font-family: 'Palanquin';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            color: #54370d;
+        }
         
         .slider-content{
             text-align: center;
             padding-bottom: 88px;
         }
 
-        .slider-content-style h3{
+        .slider_a_wrapper h3{
              font-family: 'Palanquin';
              font-style: normal;
              font-weight: 600;
              font-size: 48px;
-
-             padding-top: 20px;
         }
 
-        .slider-content-style p{
+        .slider_a_wrapper p{
              font-family: 'Palanquin';
              font-style: normal;
              font-weight: 400;
@@ -49,7 +57,6 @@
         }
         
         .slider_a{
-            background-color: black;
             position: relative;
             overflow: hidden;
 
@@ -66,6 +73,30 @@
 
         .slider_a input{
             z-index: 2;
+
+            
+        }
+
+        .slider_a input {
+            appearance: none;
+
+            width: 28px;
+            height: 28px;
+
+            margin: 0 6px 25px;
+
+            border: 2px solid #FFFFFF;
+            border-radius: 50px;
+
+            background: transparent;
+
+            cursor: pointer;
+        }
+
+        .slider_a input:checked {
+            background: rgb(241, 201, 83);
+            width: 40px;
+            height: 28px;
         }
 
         .slider_a_wrapper{
@@ -80,51 +111,64 @@
         }
 
         .slider_a_element{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            color: rgb(175, 223, 255);
+            padding: 16px 24px;
+    
             min-width: 100%;
             height: 100%;
-            
         }
 
-        .element_one{
+        .slider-text-container {
+            background-color: rgba(0, 0, 0, 0.707);
+            padding: 16px 24px;
+            width: 880px;
+            height: 230px;
+        }
+
+
+        .element_first{
+            background: url(/assets/img/slide_first.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .element_second{
+            background: url(/assets/img/sicilysecound.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .element_third{
             background: url(/assets/img/theojamous-river-4951162_1920.jpg);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
         }
 
-        .element_two{
+        .element_fourth{
             background: url(/assets/img/theojamous-river-4951162_1920.jpg);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
         }
 
-        .element_tree{
-            background: url(/assets/img/theojamous-river-4951162_1920.jpg);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        .element_four{
-            background: url(/assets/img/theojamous-river-4951162_1920.jpg);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-       .slider_a input[value="one"]:checked ~ .slider_a_wrapper{
+       .slider_a input[value="first"]:checked ~ .slider_a_wrapper{
             transform: translateX(0);
         }
 
-        .slider_a input[value="two"]:checked ~ .slider_a_wrapper{
+        .slider_a input[value="second"]:checked ~ .slider_a_wrapper{
             transform: translateX(-100%);
         } 
 
-        .slider_a input[value="tree"]:checked ~ .slider_a_wrapper{
+        .slider_a input[value="third"]:checked ~ .slider_a_wrapper{
             transform: translateX(-200%);
         }
 
-        .slider_a input[value="four"]:checked ~ .slider_a_wrapper{
+        .slider_a input[value="fourth"]:checked ~ .slider_a_wrapper{
             transform: translateX(-300%);
         }

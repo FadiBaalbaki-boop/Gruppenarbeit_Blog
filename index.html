@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/fonts.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/slider.css">
+    <link rel="shortcut icon" href="/assets/icons/traver_blog_icon.svg" type="image/x-icon">
 </head>
 
 <body>
@@ -24,31 +25,29 @@
 
     <main>
         <section class="hero">
-
             <article class="overlay-container">
-                <img src="/assets/img/vector_bg.png" alt="gelber background">
-                <img class="circle" src="/assets/icons/Circle.png" alt="circle">
-                <div class="hero-content">
+                    <img src="/assets/img/vector_bg.png" alt="gelber background">
+                    <img class="circle" src="/assets/icons/Circle.png" alt="circle">
+                    <div class="hero-content">
                         <div class="hero-text">
                             <h1>Cappadocia</h1>
                             <p>From sunrise balloons to <br> hidden cave dwellings,<br> every moment feels unreal <br> in the best way.</p>
                         </div>
-                </div>
+                    </div>
             </article>
         </section>
-
         <section class="slider">
                 <article class="slider-content">
                     <h2 class="headline">Highlights</h2>
                     <p>From the vibrant cultures of Asia to the sun-drenched islands of the Caribbean and the serene<br> landscapes
                     of Scandinavia, each destination offers a distinct way to explore the world.</p>
-                    </article>
+                </article>
 
-                <section class="slider_a">
-                    <input type="radio" name="slider" value="one" checked>
-                    <input type="radio" name="slider" value="two">
-                    <input type="radio" name="slider" value="tree">
-                    <input type="radio" name="slider" value="four">
+                <article class="slider_a">
+                    <input type="radio" name="slider" value="first" checked>
+                    <input type="radio" name="slider" value="second">
+                    <input type="radio" name="slider" value="third">
+                    <input type="radio" name="slider" value="fourth">
 
                     <article class="slider_a_wrapper">
                         <div class="slider_a_element element_one slider-content-style">
@@ -120,35 +119,46 @@
                 </details>
             </div>
         </section>
+        <section class="contact">
+            <h2 class="headline-Contact">Contact form</h2>
+            <p>Have a question or an idea to collaborate?<br>
+            Get in touch-I'd love to hear from and explore how we can work together.</p>
 
-        <section id="contact">
-            <form id="form-main" action="submit-form" method="POST">
-                <div class="titel-container">
-                    <div class="titel-box">
-                        <img src="/assets/icons/person_pin_icon.svg" alt="person pin icon">
-                        <h2>Contact form</h2>
-                    </div>
-                    <p>Have a question or an idea to collaborate? <br> Get in touch-I’d love to hear from you and
-                        explore how
-                        we can work together.</p>
+            <form>
+
+                <div class="contact-formular">
+                <div class="contact-box">
+                   
+                    <label class="field">
+                        <span>What's your name?</span>
+                        <input type="text" name="name">
+                    </label>
+                    
+                    
+                    
+                    <label class="field">
+                        <span>What's your email?</span>
+                        <input type="text" name="email">
+                    </label>
+                    
                 </div>
 
-                <div class="form-content">
-                    <div class="form-input">
-                        <div class="personal">
-                            <input type="text" name="name" id="name" placeholder="What's your name?" required>
-                            <input type="email" name="email" id="email" placeholder="What's your email?" required>
-                        </div>
+                    <label class="field">
+                        <span>How can I help?</span>
+                        <input class="input-class" type="text" name="message">
+                    </label>
+                    </div>
 
-                        <textarea name="message" id="message" rows="5" placeholder="How can I help?" required></textarea>
+                    <label class="label-checkbox">
+                        <input class="checkbox" type="checkbox" name="privacy" required>
+                        <span>
+                            I've read the <a href="">privacy police</a> and agree
+                            to the processing of my data as outlined.
+                        </span>
+                    </label>
+                    <div class="button-container">
+                    <button class="button" type="submit">Send</button>
                     </div>
-                    <div class="send-box">
-                        <input type="checkbox" name="policy-check" id="policy-check" required> I've read the <span
-                            style="color: green;">privacy policy </span> and agree to the processing of my data as
-                        outlined.
-                        <button type="submit">Send</button>
-                    </div>
-                </div>
             </form>
         </section>
     </main>
@@ -160,7 +170,7 @@
                     <img src="assets/icons/copyright_icon.svg" alt="copyright icon">
                     <p>Travel Blog 2026</p>
                 </div>
-                
+
                 <a href="">Imprint </a>
                 <a href="">Cookie Preferences </a>
             </div>
@@ -173,6 +183,6 @@
             </div>
     </footer>
 
-
+    
 </body>
 </html>
