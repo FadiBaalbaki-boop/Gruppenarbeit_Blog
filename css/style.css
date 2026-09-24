@@ -171,7 +171,7 @@ header img {
 }
 
 .contact{
-    padding: 120px 0 120px 120px;
+    padding: 88px 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -270,7 +270,6 @@ label{
 
 
 #faq {
-    /* max-width: 1200px; */
     padding: 88px 120px;
     width: 100%;
 
