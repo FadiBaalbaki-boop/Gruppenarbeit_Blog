@@ -10,13 +10,18 @@
     flex-direction: column;
 }
 
+/* box */
 .article-meta{
     display: flex;
-    background-color: aqua;
+    gap: 32px;
+    padding: 10px;
 }
 
 .meta-item{
     background-color: aquamarine;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
 }
 
