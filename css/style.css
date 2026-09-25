@@ -9,12 +9,9 @@
     scroll-behavior: smooth;
 }
 
-/* main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
+.main{
+    padding: 88px 120px;
+}
 
 /* Header start */
 header {
@@ -171,7 +168,7 @@ header img {
 }
 
 .contact{
-    padding: 88px 120px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -201,7 +198,7 @@ form input{
     padding-bottom: 17px;
 }
 .input-class{
-    width: 1085px;
+    max-width: 1085px;
 }
 .contact-box{
     display: flex;
@@ -270,7 +267,7 @@ label{
 
 
 #faq {
-    padding: 88px 120px;
+    padding-block: 88px;
     width: 100%;
 
     display: flex;
@@ -432,18 +429,25 @@ footer {
     align-items: center;
 }
 
-
-/* Fadi's Block css style */
-
-/* Fadi Hero Bereich */
-
-.hero-blog{
-    display: flex;
-    padding: 88px 120px;
-    gap: 30px;
+@media screen and (max-width: 480px){
+    
+}
+@media screen and (min-width:481px) and (max-width:767px) {
+    
+}
+@media screen and (min-width: 768px) and (max-width: 999px){
+    
 }
 
-.hero_text_blog{
-    display: flex;
-    flex-direction: column;
+@media screen and (min-width: 1000px) and (max-width: 1350px){
+    .main{
+        padding: 88px 100px;
+    }
+    .contact{
+    
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    
 }
