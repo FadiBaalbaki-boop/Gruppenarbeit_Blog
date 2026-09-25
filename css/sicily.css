@@ -32,6 +32,7 @@ main{
 }
 
 .article-hero-content>h2{
+    display: flex;
     font-family: Palanquin;
     font-weight: 600;
     font-style: SemiBold;
@@ -48,6 +49,7 @@ main{
     line-height: 120%;
     letter-spacing: 0%;
     color:#54370D;
+    padding-top: 8px;
 }
 
 /* box */
@@ -70,6 +72,7 @@ main{
     justify-content: end;
     align-items: center;
     padding-left: 16px;
+    padding: 16px;
     width: 270px;
     background: #4EA48733;
     border-radius: 30px;
@@ -127,6 +130,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 60px;
 }
 
 .slider_b{
@@ -254,24 +258,43 @@ main{
 
 #last-img{
     position: absolute;
-    transform: translate(-13px, -12px);
+    transform: translate(-165px, 50px);
 }
 
 .last-container{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    align-items: center;
+    gap: 50px;
 }
 
-.btn-last {
+#btn{
+    display: flex;
+    gap: 8px;
+    width: 160px;
+    height: 50px;
+
+    padding-inline: 24px;
     background: #4EA487;
-    color: #F1C953;
-    border: none;
-
-    width: 158px;
-    height: 48px;
-    opacity: 1;
-    gap: 10px;
     border-radius: 40px;
-    cursor: pointer;
+    align-items: center;
+    
 }
+
+.btn{
+    background: #4EA487;
+    border: none;
+    font-family: Arima;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 5%;
+    color: #F1C953;
+}
+
+#img-share{
+    width: 32px;
+    height: 32px;
+}
+
