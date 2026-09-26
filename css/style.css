@@ -429,25 +429,32 @@ footer {
     align-items: center;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (min-width: 320px) and (max-width: 480px){
     
-}
-@media screen and (min-width:481px) and (max-width:767px) {
-    
-}
-@media screen and (min-width: 768px) and (max-width: 999px){
-    
-}
-
-@media screen and (min-width: 1000px) and (max-width: 1350px){
-    .main{
-        padding: 88px 100px;
+    .hero{
+        background-position: 65% center;
     }
-    .contact{
     
+    .overlay-container img:first-child{
+        width: 220px;
+        height: 300px;
     }
-}
 
-@media screen and (max-width: 1440px) {
-    
+    .hero-content{
+        display: none;
+    }
+
+    .circle{
+        width: 120px;
+        height: 120px;
+        top: 150px;
+        left: 50px;
+    }
+
+
+
 }
+/* @media screen and (min-width:481px) and (max-width:767px) {
+    
+} */
+
