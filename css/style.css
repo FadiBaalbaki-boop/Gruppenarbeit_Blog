@@ -198,7 +198,7 @@ form input{
     padding-bottom: 17px;
 }
 .input-class{
-    max-width: 1085px;
+    width: 1085px;
 }
 .contact-box{
     display: flex;
@@ -371,7 +371,7 @@ footer {
 }
 
 .footer-socials {
-    width: 509px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -383,7 +383,6 @@ footer {
 .copyright-box {
     width: 180px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 4px;
 }
@@ -411,6 +410,7 @@ footer {
     color: white;
 }
 
+
 .footer-socials a {
     width: fit-content;
     text-decoration: none;
@@ -421,12 +421,30 @@ footer {
 }
 
 .icons-wrapper {
-    width: 188px;
+    width: 100%;
     gap: 16px;
 
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.under_footer{
+    background-color: rgba(241, 201, 83, 1);
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.icon-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+.icon-box img{
+    height: 40px;
+    width: 40px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px){
@@ -455,6 +473,57 @@ footer {
 
 }
 /* @media screen and (min-width:481px) and (max-width:767px) {
+@media screen and (max-width: 480px){
+    
+}
+@media screen and (min-width:481px) and (max-width:767px) {
+    
+}
+@media screen and (min-width: 768px) and (max-width: 999px){
+    .list{
+        display: none;
+    }
+    .under_footer{
+        display: flex;
+        align-items: center;
+    }
+    .footer-socials{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    footer{
+        padding: 60px 90px;
+    }
+    .contact-box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .input-class{
+        width: 525px;
+    }
+    
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1350px){
+    .main{
+        padding: 88px 100px;
+    }
+   
+    form input{
+       width: 350px;
+    }
+    .input-class{
+        width: 735px;
+    }
+    .slider-text-container h3{
+        font-size: 40px;
+    }
+    .slider-text-container p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
     
 } */
 

@@ -120,10 +120,15 @@
 
         .slider-text-container {
             background-color: rgba(0, 0, 0, 0.707);
-            padding: 16px 24px;
-            width: 880px;
-            height: 230px;
+            padding: 20px 24px;
+            width: 80%;
+            border-top-right-radius: 30px;
+
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
         }
+    
 
 
         .element_first{
@@ -169,3 +174,33 @@
         .slider_a input[value="fourth"]:checked ~ .slider_a_wrapper{
             transform: translateX(-300%);
         }
+
+
+@media screen and (min-width: 768px) and (max-width: 999px){
+    .main{
+        padding: 88px 100px;
+    }
+    .slider-text-container p{
+        display: none;
+    }
+}
+
+
+        @media screen and (min-width: 1000px) and (max-width: 1350px){
+    .main{
+        padding: 88px 100px;
+    }
+    form input{
+       width: 350px;
+    }
+    .input-class{
+        width: 735px;
+    }
+    .slider-text-container h3{
+        font-size: 40px;
+    }
+    .slider-text-container p{
+        font-size: 20px;
+    }
+    
+}
